@@ -11,4 +11,14 @@ console.log(newname);
 //#endregion string-end
 
 
+//#region number-start
+let age : number;
+age = 25;
+age = 25.5;
+// age = "25";
+
+let dob = "25" ;
+let result =  parseInt(dob);
+console.log(result);
+//#endregion number-end
 
