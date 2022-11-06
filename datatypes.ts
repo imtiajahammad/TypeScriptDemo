@@ -49,3 +49,22 @@ console.log(emp);
 //console.log(sum6);
 
 //#endregion array-end
+
+
+//#region enum-start
+
+enum Color{
+    Red,
+    Green,
+    Blue
+};
+let c: Color = Color.Blue;
+const enum Color2{
+    Red,
+    Green,
+    Blue
+};
+let c2: Color2 = Color2.Blue;
+
+
+//#endregion enum-end
