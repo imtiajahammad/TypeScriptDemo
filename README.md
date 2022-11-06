@@ -54,8 +54,27 @@
   - Angular has Routing functionality to create SPA
   - Angular also offers SSR(Server Side Rendering) which supports SPA
 
+# Data Types
+  - string
+  - number
+  - boolean
+  - array
+  - enum
+  - tuple
+  - any
+  - void
+  - never
+
+# Type Inference
+  - Typescript has the ability to determine the type from the value which has been assigned. But it is reconneded to use types.
+  - 
   
-  
+# Functions
+  - Different ways to write function
+  - Generic Function
+  - Optional Parameters
+  - Required Prameters
+  - Rest parameters
   
   
 # WORKFLOW
@@ -73,7 +92,13 @@
 
   - node -v for node version
   - npm -v for npm version
+
+  - Write some datatype on the datatypes.ts file
+  - Compile the code with terminal with `tsc` (This will rewrite the code in the datatypes.js file)
+  - Check the console log in the termainal by writing `node datatypes` (node jsFileName)
+  - Create new file `functions.ts` for functions separately
   
+
 
 
 
