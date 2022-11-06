@@ -49,3 +49,17 @@ console.log(substy(2,3,5));
 
 //#endregion required-paramters
 
+
+//#region rest-parameters
+function addTwo(num1: number,num2: number, ...num3: number[]) : number{
+    return num1 + num2 +num3.reduce((a,b)=>a+b,0);
+}
+console.log(addTwo(2,3));
+
+let numberss =[5,6,7];
+console.log(addTwo(2,3,...numberss));
+console.log(addTwo(2,3,...[1,2,3,4]));
+console.log(addTwo(2,3,4,5,6,7,8,9,0));
+
+
+//#endregion rest-parameters
