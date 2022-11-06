@@ -82,3 +82,17 @@ swapNumbers3[0];
 swapNumbers3[1];
 //#endregion tuple-end
 
+
+//#region any-start
+let department : any;
+department = "IT";
+department = 19;
+
+function add(num1: number,num2: number): any {
+    return num1+num2;
+}
+let newSum = add(19,33);
+
+
+//#endregion any-end
+
