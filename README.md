@@ -3,7 +3,7 @@
   - A component-based framework for building scalable app
   - Provided collection of libraries to cover features like Routing, Forms
   
-  # Frameworks
+# Frameworks
   - Framework generally contains set of libraries
   - You can extend the frameworks
   - Some example are Angular, .Net, Ionic, ExpressJS
@@ -13,7 +13,7 @@
   - You can combine multiple libs to build apps
   - Some examples are React, MomentJS, Lodash
   
- # Features of Angular
+# Features of Angular
   - Template
   - Data Binding
   - Forms
@@ -21,36 +21,44 @@
   - Observables
   - PWA
   
- # Introduction to TypeScript
+# Introduction to TypeScript
   - A strongly typed Programming Language
   - Created and maintained by Microsoft
   - Superset of JavaScript
   
- # Why TypeScript?
+# Why TypeScript?
   - Compiles to JavaScript
   - Keeps your code evergreen
   - Supported by all major libraries and frameworks
   
-  # Type Safety
-    - Keeps your application free from Type Errors
-    - Languages like C#, Java are example of Type Safe Language
-    - Keeps your JS code free from undefined and null values
-    - In TypeScript Types are stripped when your code is converted to JS
+# Type Safety
+  - Keeps your application free from Type Errors
+  - Languages like C#, Java are example of Type Safe Language
+  - Keeps your JS code free from undefined and null values
+  - In TypeScript Types are stripped when your code is converted to JS
     
-  # Installing and Creating First TypeScript Program
-    - Install Node
-		- Use Latest version of NodeJs
-		- 'npm init' to create a package.json
-		- Install TypeScript 'npm i typescript'
-		- Initialize TypeScript
-		- 'tsc --init'
+# Installing and Creating First TypeScript Program
+  - Install Node
+	- Use Latest version of NodeJs
+	- 'npm init' to create a package.json
+	- Install TypeScript 'npm i typescript'
+	- Initialize TypeScript
+	- 'tsc --init'
+  
+# Single Page Application
+  - SPA stands for Single Page Applications
+  - You can use modern frameworks like Angular, React or Vue to create SPA
+  - SPA does not make requests to server for everty URL requests
+
+# How Angular Helps
+  - Angular has Routing functionality to create SPA
+  - Angular also offers SSR(Server Side Rendering) which supports SPA
+
   
   
   
   
-  
-  
-  # WORKFLOW
+# WORKFLOW
   - Check if node is installed, otherwise install node
   - Create a folder and open the folder in Visual Studio Code
   - Open the terminal in VSCode and use `npm init` (this will create a package.json file)
@@ -59,4 +67,14 @@
   
   
   - In the 'tscconfig.json' file, update the value for 'target' to "ES2015"
+
+  - Create new file `datatypes.ts`
+  - Use `tsc` on the terminal to compile ts code
+
+  - node -v for node version
+  - npm -v for npm version
+  
+
+
+
   
