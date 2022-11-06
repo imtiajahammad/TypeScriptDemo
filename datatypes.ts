@@ -68,3 +68,17 @@ let c2: Color2 = Color2.Blue;
 
 
 //#endregion enum-end
+
+
+
+//#region tuple-start
+let swapNumbers3 : [number, number];
+function swapNumbers(num1:number,num2:number) : [number,number]{
+    return [num2,num1];
+}
+swapNumbers3 = swapNumbers(10,20);
+
+swapNumbers3[0];
+swapNumbers3[1];
+//#endregion tuple-end
+
