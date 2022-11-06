@@ -22,3 +22,8 @@ let result =  parseInt(dob);
 console.log(result);
 //#endregion number-end
 
+
+//#region boolean-start
+let isValid : boolean;
+console.log(isValid);
+//#endregion boolean-end
