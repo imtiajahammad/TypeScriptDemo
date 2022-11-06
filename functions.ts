@@ -29,3 +29,12 @@ const mult = function(num1:number,num2:number) : number {
 };
 //#endregion function-expression
 
+
+
+//#region  optional-parameters
+function addition98(a:number,b:number,c?:number){
+    return c ? a+b+c : a+b;
+};
+addition98(2,3,4);
+addition98(1,4);
+//#endregion optional-parameters
