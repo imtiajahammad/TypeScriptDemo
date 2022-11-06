@@ -38,3 +38,14 @@ function addition98(a:number,b:number,c?:number){
 addition98(2,3,4);
 addition98(1,4);
 //#endregion optional-parameters
+
+
+//#region required-parameters
+const substy = ( num1 : number, num2 : number, num3=10 ) : number => num1 - num2 -num3;
+console.log(substy(2,3));
+console.log(substy(2,3,5));
+
+
+
+//#endregion required-paramters
+
