@@ -75,6 +75,15 @@
   - Optional Parameters
   - Required Prameters
   - Rest parameters
+
+# Classes and Methods
+  - Introduction to Classes
+  - Creating Classes
+  - Class Properties and constructor
+  - Class methods
+  - Creating Instance of Class
+  - Member Visibility
+  - Static Members
   
   
 # WORKFLOW
@@ -97,9 +106,22 @@
   - Compile the code with terminal with `tsc` (This will rewrite the code in the datatypes.js file)
   - Check the console log in the termainal by writing `node datatypes` (node jsFileName)
   - Create new file `functions.ts` for functions separately
+  - Create new file with name `Class.ts` and to remember that class names are PascalCase for naming convenstion
+  - 
   
 
 
 
 
   
+
+
+
+
+
+
+
+
+# References:
+  - https://www.youtube.com/watch?v=3qBXWUpoPHo&t=5492s&ab_channel=freeCodeCamp.org
+  - 

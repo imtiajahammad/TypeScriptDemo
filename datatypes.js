@@ -48,7 +48,7 @@ var Color;
 ;
 let c = Color.Blue;
 ;
-let c2 = 2 /* Blue */;
+let c2 = 2 /* Color2.Blue */;
 //#endregion enum-end
 //#region tuple-start
 let swapNumbers3;
@@ -68,5 +68,3 @@ function add(num1, num2) {
 }
 let newSum = add(19, 33);
 //#endregion any-end
-//#region functions-start
-//#endregion function-end

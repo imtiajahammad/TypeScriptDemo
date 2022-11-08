@@ -40,4 +40,18 @@ function addTwo(num1, num2, ...num3) {
 console.log(addTwo(2, 3));
 let numberss = [5, 6, 7];
 console.log(addTwo(2, 3, ...numberss));
+console.log(addTwo(2, 3, ...[1, 2, 3, 4]));
+console.log(addTwo(2, 3, 4, 5, 6, 7, 8, 9, 0));
 //#endregion rest-parameters
+//#region generics-start
+function getItems3(items) {
+    return new Array().concat(items);
+}
+function getItems(items) {
+    return new Array().concat(items);
+}
+let concatResult = getItems([1, 2, 3, 4, 5]);
+let concatResult2 = getItems([1, 2, 3, 4, 5]);
+let concatString = getItems(["a", "b", "c", "d"]);
+let concatString2 = getItems(["a", "b", "c", "d"]);
+//#endregion generics-end
