@@ -106,8 +106,11 @@
   - Compile the code with terminal with `tsc` (This will rewrite the code in the datatypes.js file)
   - Check the console log in the termainal by writing `node datatypes` (node jsFileName)
   - Create new file `functions.ts` for functions separately
+
+
   - Create new file with name `Class.ts` and to remember that class names are PascalCase for naming convenstion
-  - 
+  - In typescript, you can not have both default and parameterized constructor, you have to have one.
+  -  
   
 
 
