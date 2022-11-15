@@ -31,6 +31,11 @@ class EmployeeWithParameterizedConstructor {
         this.name = name;
         this.address = address;
     }
+    getNameWithAddress(): string{
+        //return this.name + " " + this.address;
+        return `${this.name} stays at ${this.address}`;
+
+    }
 }
 
 let john = new Employee();
@@ -42,4 +47,6 @@ console.log(john);
 
 let johnPlayer = new EmployeeWithParameterizedConstructor(1,"JohnPlayer","Hignway 71");
 console.log(johnPlayer);
+let address = johnPlayer.getNameWithAddress();
+console.log(address);
 
