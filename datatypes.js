@@ -48,7 +48,7 @@ var Color;
 ;
 let c = Color.Blue;
 ;
-let c2 = 2 /* Color2.Blue */;
+let c2 = 2 /* Blue */;
 //#endregion enum-end
 //#region tuple-start
 let swapNumbers3;

@@ -84,6 +84,16 @@
   - Creating Instance of Class
   - Member Visibility
   - Static Members
+
+# Interfaces
+  - Creating Interfaces
+  - Using Interfaces as Types
+  - Implementing Interfaces
+  - Extending Interfaces
+  - Optional Properties
+  - Object destructuring
+  - Array destructuring
+
   
   
 # WORKFLOW
