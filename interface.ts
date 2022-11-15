@@ -35,8 +35,11 @@ console.log(emps);
 
 
 let user : User ={ name: "John", id: 31, email: "alu@gmail.com"};
-
-
+//#region object-destructioning
+let { name : UserName, email: UserLogin } : User = { name: "John", id:21, email:"aluvorta@gmail.com"};
+console.log("object destructioning: " + UserName);
+console.log("object destructioning: " + UserLogin);
+//#endregion object-destructioning
 interface ExtendedUser extends User{
     salary: number;
 }
