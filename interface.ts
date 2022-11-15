@@ -1,6 +1,6 @@
 interface User{
     name: string;
-    age: number;
+    age?: number;
     id: number;
     email: string;
 }
@@ -32,3 +32,6 @@ class EmployeeUser{
 }
 let emps = new EmployeeUser(22,"Name User",{ street:"ABC", city: "Bangalore",state:"Karnataka",pin:"3342"});
 console.log(emps);
+
+
+let user : User ={ name: "John", id: 31, email: "alu@gmail.com"};

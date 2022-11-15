@@ -14,3 +14,4 @@ class EmployeeUser {
 }
 let emps = new EmployeeUser(22, "Name User", { street: "ABC", city: "Bangalore", state: "Karnataka", pin: "3342" });
 console.log(emps);
+let user = { name: "John", id: 31, email: "alu@gmail.com" };
