@@ -35,3 +35,10 @@ console.log(emps);
 
 
 let user : User ={ name: "John", id: 31, email: "alu@gmail.com"};
+
+
+interface ExtendedUser extends User{
+    salary: number;
+}
+let extendedEmployee : ExtendedUser = { name:"John",id:21,email:"kalke@gmail.com",salary:32000};
+console.log(extendedEmployee);
