@@ -57,6 +57,13 @@ class EmployeeWithIncapsulatedParameters {
     static getEmployeeCount(): number{
         return 50;
     }
+    set empId(id:number){
+        this.#id=id;
+    }
+    get empId(){
+        return this.#id;
+    }
+
 }
 class Manager extends EmployeeWithIncapsulatedParameters{
     name = "not available in instance but available in own class and extended class";
@@ -89,3 +96,8 @@ console.log(address);
 
 
 console.log(EmployeeWithIncapsulatedParameters.getEmployeeCount());
+
+
+let johnGetterSetter = new EmployeeWithIncapsulatedParameters(4,"Encapsulated Piyarre","3 Melborne, Chakolbar street, Australia");
+johnGetterSetter.empId = 34;
+console.log(johnGetterSetter.empId + " : " + johnGetterSetter.getNameWithAddress());

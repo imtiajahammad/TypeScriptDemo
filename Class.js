@@ -49,6 +49,12 @@ class EmployeeWithIncapsulatedParameters {
     static getEmployeeCount() {
         return 50;
     }
+    set empId(id) {
+        __classPrivateFieldSet(this, _EmployeeWithIncapsulatedParameters_id, id, "f");
+    }
+    get empId() {
+        return __classPrivateFieldGet(this, _EmployeeWithIncapsulatedParameters_id, "f");
+    }
 }
 _EmployeeWithIncapsulatedParameters_id = new WeakMap(), _EmployeeWithIncapsulatedParameters_address = new WeakMap();
 class Manager extends EmployeeWithIncapsulatedParameters {
@@ -74,3 +80,6 @@ console.log(johnPlayer);
 let address = johnPlayer.getNameWithAddress();
 console.log(address);
 console.log(EmployeeWithIncapsulatedParameters.getEmployeeCount());
+let johnGetterSetter = new EmployeeWithIncapsulatedParameters(4, "Encapsulated Piyarre", "3 Melborne, Chakolbar street, Australia");
+johnGetterSetter.empId = 34;
+console.log(johnGetterSetter.empId + " : " + johnGetterSetter.getNameWithAddress());
