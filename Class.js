@@ -46,6 +46,9 @@ class EmployeeWithIncapsulatedParameters {
         //return this.name + " " + this.address;
         return `${this.name} stays at ${__classPrivateFieldGet(this, _EmployeeWithIncapsulatedParameters_address, "f")}`;
     }
+    static getEmployeeCount() {
+        return 50;
+    }
 }
 _EmployeeWithIncapsulatedParameters_id = new WeakMap(), _EmployeeWithIncapsulatedParameters_address = new WeakMap();
 class Manager extends EmployeeWithIncapsulatedParameters {
@@ -70,3 +73,4 @@ let johnPlayer = new EmployeeWithParameterizedConstructor(1, "JohnPlayer", "Hign
 console.log(johnPlayer);
 let address = johnPlayer.getNameWithAddress();
 console.log(address);
+console.log(EmployeeWithIncapsulatedParameters.getEmployeeCount());

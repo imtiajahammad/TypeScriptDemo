@@ -54,6 +54,9 @@ class EmployeeWithIncapsulatedParameters {
         return `${this.name} stays at ${this.#address}`;
 
     }
+    static getEmployeeCount(): number{
+        return 50;
+    }
 }
 class Manager extends EmployeeWithIncapsulatedParameters{
     name = "not available in instance but available in own class and extended class";
@@ -85,3 +88,4 @@ console.log(address);
 
 
 
+console.log(EmployeeWithIncapsulatedParameters.getEmployeeCount());
