@@ -1,3 +1,8 @@
+import { login } from './interface';
+import { User } from './interface';
+
+//import * as UserLogin from './interface'
+
 class Employee {
     id !: number;
     name !: string;
@@ -101,3 +106,28 @@ console.log(EmployeeWithIncapsulatedParameters.getEmployeeCount());
 let johnGetterSetter = new EmployeeWithIncapsulatedParameters(4,"Encapsulated Piyarre","3 Melborne, Chakolbar street, Australia");
 johnGetterSetter.empId = 34;
 console.log(johnGetterSetter.empId + " : " + johnGetterSetter.getNameWithAddress());
+
+
+
+
+class EmployeewithLogin implements login {
+    id !: number;
+    name !: string;
+    address !: string;
+
+    Login(): User {
+        return { name: "John", id: 31, email: "alu@gmail.com"};
+    }
+}
+
+let loginInstance = new EmployeewithLogin();
+console.log(loginInstance.Login());
+
+
+
+
+
+
+
+
+  

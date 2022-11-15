@@ -1,4 +1,4 @@
-interface User{
+export interface User{
     name: string;
     age?: number;
     id: number;
@@ -42,3 +42,11 @@ interface ExtendedUser extends User{
 }
 let extendedEmployee : ExtendedUser = { name:"John",id:21,email:"kalke@gmail.com",salary:32000};
 console.log(extendedEmployee);
+
+
+
+
+export interface login{
+    /*whereever you need to use your interface outside its own class, it needs to be added with export keyword, so that it can be imported other places */
+    Login(): User;
+}

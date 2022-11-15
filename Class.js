@@ -11,6 +11,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _EmployeeWithIncapsulatedParameters_id, _EmployeeWithIncapsulatedParameters_address;
+Object.defineProperty(exports, "__esModule", { value: true });
+//import * as UserLogin from './interface'
 class Employee {
 }
 class EmployeeWithDefaultConstructor {
@@ -83,3 +85,10 @@ console.log(EmployeeWithIncapsulatedParameters.getEmployeeCount());
 let johnGetterSetter = new EmployeeWithIncapsulatedParameters(4, "Encapsulated Piyarre", "3 Melborne, Chakolbar street, Australia");
 johnGetterSetter.empId = 34;
 console.log(johnGetterSetter.empId + " : " + johnGetterSetter.getNameWithAddress());
+class EmployeewithLogin {
+    Login() {
+        return { name: "John", id: 31, email: "alu@gmail.com" };
+    }
+}
+let loginInstance = new EmployeewithLogin();
+console.log(loginInstance.Login());
