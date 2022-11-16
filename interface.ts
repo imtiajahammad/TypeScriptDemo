@@ -53,3 +53,31 @@ export interface login{
     /*whereever you need to use your interface outside its own class, it needs to be added with export keyword, so that it can be imported other places */
     Login(): User;
 }
+
+
+
+
+let [user1,user2, ...restUsers] : User[] = [
+    {
+    name: "John",
+    email: "john@gmail.com",
+     id: 50
+    }
+    ,{
+        name: "John2",
+        email: "john2@gmail.com",
+         id: 51
+        }
+    ,{
+        name: "John3",
+        email: "john3@gmail.com",
+         id: 52
+        }
+    ];
+console.log(user1);
+console.log(user2);
+console.log("------------------------");
+console.log(restUsers);
+console.log("------------------------");
+let result = restUsers.filter(user => user.id > 50);
+console.log(result);
