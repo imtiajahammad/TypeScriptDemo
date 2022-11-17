@@ -81,3 +81,9 @@ console.log(restUsers);
 console.log("------------------------");
 let result = restUsers.filter(user => user.id > 50);
 console.log(result);
+
+
+// @Component({})
+// class Component {
+//     constructor(public name: string){}
+// }

@@ -94,6 +94,12 @@
   - Object destructuring
   - Array destructuring
 
+# Decorators
+  - Introduction to Decorators
+  - Class Decorators
+  - Method Decorators
+  
+
   
   
 # WORKFLOW
