@@ -135,7 +135,8 @@
 
   - `sourceMap` in the tsconfig.json helps us to check the source map. Modify the `sourceMap` value to true and run `tsc`, it will create `.js.map` files and these contain the information where this code is getting generated. It tells the browser which .ts files to use.
 
-
+  - `noEmit` in the tsconfig.json helps us not to generate any output files in js. Delete all the javascript output files and the dist folder created earlier, Modify the `noEmit` into true and run `tsc`, it will no more make any javascript output files.
+  - 
 
 
   
