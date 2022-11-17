@@ -55,3 +55,4 @@ let concatResult2 = getItems([1, 2, 3, 4, 5]);
 let concatString = getItems(["a", "b", "c", "d"]);
 let concatString2 = getItems(["a", "b", "c", "d"]);
 //#endregion generics-end
+//# sourceMappingURL=functions.js.map

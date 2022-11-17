@@ -133,7 +133,7 @@
 
   - `outDir` in the tsconfig.json helps us to manage all the generated compiled javascripts files into some specific folder. Modify the directory to a folder name `./dist` and run `tsc`, all the js files will be moved to the directed folder.
 
-  
+  - `sourceMap` in the tsconfig.json helps us to check the source map. Modify the `sourceMap` value to true and run `tsc`, it will create `.js.map` files and these contain the information where this code is getting generated. It tells the browser which .ts files to use.
 
 
 

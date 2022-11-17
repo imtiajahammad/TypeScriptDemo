@@ -50,3 +50,4 @@ console.log(result);
 // class Component {
 //     constructor(public name: string){}
 // }
+//# sourceMappingURL=interface.js.map

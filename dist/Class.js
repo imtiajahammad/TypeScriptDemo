@@ -92,3 +92,4 @@ class EmployeewithLogin {
 }
 let loginInstance = new EmployeewithLogin();
 console.log(loginInstance.Login());
+//# sourceMappingURL=Class.js.map
