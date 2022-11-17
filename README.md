@@ -111,6 +111,23 @@
   - Create a workspace with default app
   - Workspace walthrough
   - Introduction to mono-repo
+
+
+# Angular Workspace WalkThrough
+  - src/
+  - node_modules
+  - Package.json[all the packages we are using, some commands on how to use the project, dependencies are the needed packages, ]
+  - tsconfig.app.json[you will be writing rest of the code in .ts files, these will be compiled by this one]
+  - tsconfig.json
+  - tsconfig.spec.json[will be used by all the unit test file, all the unit test file will be named as spec.ts and this files will be used to compile those files. ]
+  - angular.json[information related to your workspace]
+  - karma.conf.json[it is a task runner to run your tests. angulars default test pramework is jesmine. you will be writing all your tests in jasmine and use karma to run your tests]
+  - package-lock.json [adding new package or removing packages by different developers, lock files ensures you are on the version. in case someone changes the version, they have to commit lock file. if anyone updates the packages, he/she has to update the lock file also]
+  - editorconfig[setup your local environment based on settings of any other editor, you can bring some configuration here]
+  - browserslistrc [it tells you which browsers are supported, run `npx browserslist`]
+  - main.ts [it runs the execution started ]
+
+
   
 # WORKFLOW
   - Check if node is installed, otherwise install node
