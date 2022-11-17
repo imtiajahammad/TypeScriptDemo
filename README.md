@@ -98,8 +98,11 @@
   - Introduction to Decorators
   - Class Decorators
   - Method Decorators
-  
 
+# ESModules
+  - Introduction to ESModules
+  - Import/export
+  - Compiling Typescript to different JS version
   
   
 # WORKFLOW
@@ -126,7 +129,10 @@
 
   - Create new file with name `Class.ts` and to remember that class names are PascalCase for naming convenstion
   - In typescript, you can not have both default and parameterized constructor, you have to have one.
-  -  
+
+
+  - `outDir` in the tsconfig.json helps us to manage all the generated compiled javascripts files into some specific folder. Modify the directory to a folder name `./dist` and run `tsc`, all the js files will be moved to the directed folder.
+
   
 
 
