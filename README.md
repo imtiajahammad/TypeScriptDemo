@@ -104,6 +104,13 @@
   - Import/export
   - Compiling Typescript to different JS version
   
+
+# Angular Introduction
+  - Installing Angular CLI
+  - Create new empty workspace using CLI
+  - Create a workspace with default app
+  - Workspace walthrough
+  - Introduction to mono-repo
   
 # WORKFLOW
   - Check if node is installed, otherwise install node
@@ -141,7 +148,13 @@
 
   
 
-
+  - Open the command promts and go to your project directory. npm I @angular/cli -g  OR Use `npx` to avoid having global version.
+  - `ng new hotelinventoryapp -createApplication=false` for empty workspace OR `ng new hotelinventoryapp`
+  - `npm i`  to install packages into empty workspace
+  - `ng g app hotelinventory` to create new application, here `hotelinventory` is our workspace nake, No to google analytics, yes to routing, SCSS for stylesheet
+  - Delete the folder and now lets make the project direclty with all the packages
+  - Let's make a angular project with this command; `ng new hotelinventoryapp` and routing=yes, stylesheet=SCSS
+   
 
 
 
