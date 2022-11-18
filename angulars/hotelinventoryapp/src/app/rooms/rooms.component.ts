@@ -9,4 +9,10 @@ export class RoomsComponent {
 
   hotelname = 'Hilton Hotel';
   numberOfRooms = 10;
+  hideRooms=false;
+
+
+  toggle(){
+    this.hideRooms = !this.hideRooms;
+  }
 }
