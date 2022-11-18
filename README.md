@@ -134,6 +134,11 @@
   - Deploy multiple apps/libs from same repo
   - Easy to share code within the project
 
+
+# Binding Syntax
+  - Interpolation
+  - Property Binding
+  - Event Binding
   
 # WORKFLOW
   - Check if node is installed, otherwise install node

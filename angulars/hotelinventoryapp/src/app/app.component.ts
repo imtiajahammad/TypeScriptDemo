@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   template: `<h1>Hello World from inline template</h1>
   
   <p>Angular is awesome</p>
+  <hinv-rooms></hinv-rooms>
   `,
   styleUrls: ['./app.component.scss']
   //styles: [`h1{ color: red; }`]
