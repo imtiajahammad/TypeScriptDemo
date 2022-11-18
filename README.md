@@ -128,6 +128,12 @@
   - main.ts [it runs the execution started ]
 
 
+# Introduction to Mono-Repo []
+  - Create and maintain multiple apps in same repo
+  - Use libraries within the project
+  - Deploy multiple apps/libs from same repo
+  - Easy to share code within the project
+
   
 # WORKFLOW
   - Check if node is installed, otherwise install node
