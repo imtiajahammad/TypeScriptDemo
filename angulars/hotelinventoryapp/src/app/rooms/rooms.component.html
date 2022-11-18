@@ -7,8 +7,12 @@
     <div [innerText]="numberOfRooms"></div>
     
 </div>
-<div *ngIf="rooms.availableRooms >0">
+<!-- <div *ngIf="rooms.availableRooms >0">
     Available Rooms: 
+</div> -->
+{{ rooms?.availableRooms ?? 'No Rooms'}}
+<div *ngIf="rooms?.availableRooms">
+    Room List
 </div>
 
 <button (click)="toggle()">Toggle</button>
