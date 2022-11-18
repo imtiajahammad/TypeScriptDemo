@@ -139,6 +139,20 @@
   - Interpolation
   - Property Binding
   - Event Binding
+
+# Directives
+  - Introduction
+    - Directives are used to change the behaviour and appearance of the DOM element
+    - Directives can implement all lifecycle hooks
+    - Directives can not have templates
+    - *ngIf, *ngFor, *ngSwitch, ngClass, ngStyle
+  - Types of Directives
+    - Structural Directives
+      - costs more as they change the behaviour of the DOM, so they can effect on performance
+    - Attribute Directives
+  - Built-in Directives
+
+
   
 # WORKFLOW
   - Check if node is installed, otherwise install node
