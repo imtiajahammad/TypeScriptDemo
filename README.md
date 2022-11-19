@@ -107,7 +107,7 @@
 
 # Angular Introduction
   - Installing Angular CLI
-  - Create new empty workspace using CLI
+  - Create new empty workspace using CLI 
   - Create a workspace with default app
   - Workspace walthrough
   - Introduction to mono-repo
@@ -166,7 +166,7 @@
       - DecimalPipe
       - PercentPipe
       - JsonPipe[to only use in debugging purposes]
-      - SlicePipe
+      - SlicePipe[x:y=starts from x:go till to y without y][general us of slice is for pagination, but recommended not to use]
       - AsyncPipe
 
 
