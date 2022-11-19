@@ -147,9 +147,11 @@
     - Directives can not have templates
     - *ngIf, *ngFor, *ngSwitch, ngClass, ngStyle
   - Types of Directives
-    - Structural Directives
+    - Structural Directives[*ngIf, *ngFor, *ngSwitch]
       - costs more as they change the behaviour of the DOM, so they can effect on performance
-    - Attribute Directives
+      - can add/remove element from DOM, can modify element from DOM
+    - Attribute Directives[ngClass, ngStyle]
+      - can not add/remove element from DOM but can modify element from DOM
   - Built-in Directives
 
 
