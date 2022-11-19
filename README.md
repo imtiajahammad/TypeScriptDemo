@@ -163,7 +163,7 @@
       - UpperCasePipe
       - LowerCasePipe
       - CurrencyPipe
-      - DecimalPipe
+      - DecimalPipe[3 types][how many numbers after decimal 1.1-1][pass local]
       - PercentPipe
       - JsonPipe[to only use in debugging purposes]
       - SlicePipe[x:y=starts from x:go till to y without y][general us of slice is for pagination, but recommended not to use]
