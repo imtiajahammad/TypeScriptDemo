@@ -154,6 +154,22 @@
       - can not add/remove element from DOM but can modify element from DOM
   - Built-in Directives
 
+  # Pipes
+    - Introduction
+      - Pipes are used for data transformation
+      - Pipes do not change actual object
+    - Build-in Pipes
+      - DatePipe
+      - UpperCasePipe
+      - LowerCasePipe
+      - CurrencyPipe
+      - DecimalPipe
+      - PercentPipe
+      - JsonPipe
+      - SlicePipe
+      - AsyncPipe
+
+
 
   
 # WORKFLOW

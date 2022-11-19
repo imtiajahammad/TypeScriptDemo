@@ -35,8 +35,8 @@
             <td> {{ room.roomType }}</td>
             <td> {{ room.price }}</td>
             <td> {{ room.amenities }}</td>
-            <td> {{ room.checkinTime }}</td>
-            <td> {{ room.checkoutTime }}</td>                    
+            <td> {{ room.checkinTime | date: 'mediumDate' }}</td>
+            <td> {{ room.checkoutTime | date : 'dd/MMM/yyyy' }}</td>                    
         </tr>
     </table>
 </div>
