@@ -165,7 +165,7 @@
       - CurrencyPipe
       - DecimalPipe
       - PercentPipe
-      - JsonPipe
+      - JsonPipe[to only use in debugging purposes]
       - SlicePipe
       - AsyncPipe
 

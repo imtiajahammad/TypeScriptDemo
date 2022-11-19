@@ -14,6 +14,9 @@
     Available Rooms: 
 </div> -->
 <!-- {{ rooms?.availableRooms ?? 'No Rooms'}} -->
+
+{{ roomList | json}}
+
 <div *ngIf="rooms?.availableRooms">
     Room List
     <!-- {{ roomList }} -->
