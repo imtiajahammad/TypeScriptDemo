@@ -2,11 +2,14 @@
 
 
 <div [hidden]="hideRooms">
-
     Number of Rooms:
-    <div [innerText]="numberOfRooms"></div>
-    
+    <div  [innerText]="numberOfRooms" [ngStyle]="{'color':rooms.availableRooms ? 'steelblue' : 'red'}">
+
+    </div>    
 </div>
+
+
+
 <!-- <div *ngIf="rooms.availableRooms >0">
     Available Rooms: 
 </div> -->
@@ -25,7 +28,7 @@
             <th>Checkin Time</th>
             <th>Checkout Time</th>
         </tr>
-        <tr *ngFor="let room of roomList; let e=even; let o = odd; let i = index">
+        <tr *ngFor="let room of roomList; let e=even; let o = odd; let i = index" [ngClass]="e ? 'even' : 'odd' ">
             <td>{{i+1}}</td>
             <td> {{ e ? "Even" : "Odd" }}</td>
             <td> {{ room.roomNumber }}</td>
@@ -38,4 +41,4 @@
     </table>
 </div>
 
-<button (click)="toggle()">Toggle</button>
+<button (click)="toggle()">Toggle</button> 
