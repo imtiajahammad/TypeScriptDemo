@@ -169,6 +169,14 @@
       - SlicePipe[x:y=starts from x:go till to y without y][general us of slice is for pagination, but recommended not to use]
       - AsyncPipe
 
+  # bootstrap
+    - `npm i bootstrap` to install bootstrap
+    - go to node_modules and find bootstrap=>boostrap.min.css=>copy related path
+    - go to styles.scss and add the bootstrap path
+
+    - OR go to the angular.json file and find the `styles` portion and add the path here `node_modules/bootstrap/dist/css/bootstrap.min.css`
+
+
 
 
   
