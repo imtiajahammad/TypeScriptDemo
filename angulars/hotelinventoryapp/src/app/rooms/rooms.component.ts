@@ -12,6 +12,7 @@ export class RoomsComponent {
   numberOfRooms = 10;
   hideRooms=false;
 
+  selectedRoom !: RoomList;
   rooms: Room ={
     totalRooms: 20,
     availableRooms: 10,
@@ -97,6 +98,7 @@ export class RoomsComponent {
 
 
   selectRoom(room: RoomList){
+    this.selectedRoom = room;
     console.log(room);
   }
 }

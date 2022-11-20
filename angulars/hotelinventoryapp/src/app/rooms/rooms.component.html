@@ -15,7 +15,14 @@
 </div> -->
 <!-- {{ rooms?.availableRooms ?? 'No Rooms'}} -->
 
-{{ roomList | json}}
+<!-- {{ roomList | json}} -->
+
+<div *ngIf="selectedRoom">
+    <hr><hr>
+    {{ selectedRoom |json}}
+    <hr><hr>
+</div>
+
 
 <div *ngIf="rooms?.availableRooms">
     <hinv-room-list 
