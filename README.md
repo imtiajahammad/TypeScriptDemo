@@ -189,7 +189,12 @@
     - ngAfterViewChecked
     - ngOnDestroy
 
-
+# Component Communication
+  - Two or more components needs to interact in know as component communication
+  - There are multiple ways to achieve the component communication
+  - Using @Input and @OutPut
+  - Using @ViewChild and @ContentChild
+  - Using Services
   
 # WORKFLOW
   - Check if node is installed, otherwise install node
