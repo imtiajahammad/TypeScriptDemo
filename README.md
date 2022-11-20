@@ -154,29 +154,40 @@
       - can not add/remove element from DOM but can modify element from DOM
   - Built-in Directives
 
-  # Pipes
-    - Introduction
-      - Pipes are used for data transformation
-      - Pipes do not change actual object
+# Pipes
+  - Introduction
+    - Pipes are used for data transformation
+    - Pipes do not change actual object
     - Build-in Pipes
-      - DatePipe
-      - UpperCasePipe
-      - LowerCasePipe
-      - CurrencyPipe
-      - DecimalPipe[3 types][how many numbers after decimal 1.1-1][pass local]
-      - PercentPipe
-      - JsonPipe[to only use in debugging purposes]
-      - SlicePipe[x:y=starts from x:go till to y without y][general us of slice is for pagination, but recommended not to use]
-      - AsyncPipe
+    - DatePipe
+    - UpperCasePipe
+    - LowerCasePipe
+    - CurrencyPipe
+    - DecimalPipe[3 types][how many numbers after decimal 1.1-1][pass local]
+    - PercentPipe
+    - JsonPipe[to only use in debugging purposes]
+    - SlicePipe[x:y=starts from x:go till to y without y][general us of slice is for pagination, but recommended not to use]
+    - AsyncPipe
 
-  # bootstrap
-    - `npm i bootstrap` to install bootstrap
-    - go to node_modules and find bootstrap=>boostrap.min.css=>copy related path
-    - go to styles.scss and add the bootstrap path
+# bootstrap
+  - `npm i bootstrap` to install bootstrap
+  - go to node_modules and find bootstrap=>boostrap.min.css=>copy related path
+  - go to styles.scss and add the bootstrap path
 
-    - OR go to the angular.json file and find the `styles` portion and add the path here `node_modules/bootstrap/dist/css/bootstrap.min.css`
+  - OR go to the angular.json file and find the `styles` portion and add the path here `node_modules/bootstrap/dist/css/bootstrap.min.css`
 
 
+# LifeCycle Hooks 4.45.15
+  - Component instance has lifecycle hooks which can help you to hook into different events on Components
+  - Lifecycle ends when component is destroyed
+    - ngOnChanges
+    - ngOnInit
+    - ndDoCheck
+    - ngAfterContentInit
+    - ngAfterContentChecked
+    - ngAfterViewInit
+    - ngAfterViewChecked
+    - ngOnDestroy
 
 
   
@@ -232,3 +243,4 @@
 # References:
   - https://www.youtube.com/watch?v=3qBXWUpoPHo&t=5492s&ab_channel=freeCodeCamp.org
   - 
+ 
