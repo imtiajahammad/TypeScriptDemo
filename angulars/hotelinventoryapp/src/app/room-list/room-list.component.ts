@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { OutputFileType } from 'typescript';
 import { RoomList } from '../rooms/rooms';
 @Component({
   selector: 'hinv-room-list',
@@ -8,7 +9,14 @@ import { RoomList } from '../rooms/rooms';
 export class RoomListComponent {
 
 
-@Input() rooms : RoomList[] = []
+@Input() rooms : RoomList[] = [];
 
+
+@Output() selectedRoom = new EventEmitter<RoomList>();
+
+
+selectRoom(room: RoomList){
+  this.selectedRoom.emit(room);
+}
 
 }

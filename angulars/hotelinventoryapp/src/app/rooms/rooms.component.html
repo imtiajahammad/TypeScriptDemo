@@ -18,7 +18,11 @@
 {{ roomList | json}}
 
 <div *ngIf="rooms?.availableRooms">
-    <hinv-room-list [rooms]="roomList"></hinv-room-list>
+    <hinv-room-list 
+    [rooms]="roomList" 
+    (selectedRoom)="selectRoom($event)">
+
+    </hinv-room-list>
 </div>
 
 <button (click)="toggle()">Toggle</button> 
