@@ -19,6 +19,8 @@ export class RoomsComponent {
     bookedRooms: 5
   };
 
+  title = 'Room List';
+
   /*roomList: RoomList[] = [
     {
       roomNumber:1,
@@ -94,6 +96,8 @@ export class RoomsComponent {
 
   toggle(){
     this.hideRooms = !this.hideRooms;
+    this.title ="Rooms List After";
+
   }
 
 

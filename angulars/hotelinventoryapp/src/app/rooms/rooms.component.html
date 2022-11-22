@@ -30,6 +30,7 @@
 <div *ngIf="rooms?.availableRooms">
     <hinv-room-list 
     [rooms]="roomList" 
+    [title]="title"
     (selectedRoom)="selectRoom($event)">
 
     </hinv-room-list>

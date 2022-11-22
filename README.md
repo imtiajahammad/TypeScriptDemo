@@ -182,6 +182,7 @@
   - Lifecycle ends when component is destroyed
     - ngOnChanges
     [Immutibility: return new instance everytime when object/array updates.  ]
+    [ you can only apply it on component which has @Input property ]
     - ngOnInit
     - ndDoCheck
     - ngAfterContentInit
