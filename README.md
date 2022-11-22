@@ -181,6 +181,7 @@
   - Component instance has lifecycle hooks which can help you to hook into different events on Components
   - Lifecycle ends when component is destroyed
     - ngOnChanges
+    [Immutibility: return new instance everytime when object/array updates.  ]
     - ngOnInit
     - ndDoCheck
     - ngAfterContentInit

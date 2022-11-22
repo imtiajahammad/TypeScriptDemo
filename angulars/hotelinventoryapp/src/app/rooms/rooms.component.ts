@@ -101,4 +101,21 @@ export class RoomsComponent {
     this.selectedRoom = room;
     console.log(room);
   }
+
+
+  addRoom(){
+    const room: RoomList = {
+      roomNumber:4,
+      roomType: 'Deluxe Room',
+      amenities: 'Air Conditioner, Free Wi-Fi, TV, Bathroom, Kithen',
+      price: 500,
+      photos: 'https://images.pexels.com/photos/12192456/pexels-photo-12192456.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load',
+      checkinTime: new Date('11-Nov-2021'),
+      checkoutTime: new Date('12-Nov-2021'),
+      rating: 21.44
+    }
+    //this.roomList.push(room);/* add value to the roomList property only */
+    this.roomList = [...this.roomList,room];/*add new one withing the existing one */
+    console.log("addRoom called and increased to: "+this.roomList.length);
+  }
 }
